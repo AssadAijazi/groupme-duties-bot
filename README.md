@@ -22,4 +22,4 @@ The following commands are supported:
 - !duties: Sends a message specified all of the cleaning duties for the upcoming weekend.
 - !toggle reminders: Toggles whether to send weekly reminders about duties for the weekend. By default, a reminder will be sent every Sunday at 5pm. If you wish to change this, edit the node-schedule code in the index.js. See https://github.com/node-schedule/node-schedule for usage.
 - !update week num [WEEK NUMBER]: Sets the current week to week [WEEK NUMBER] in the schedule. Week numbers start from 1 and cannot be greater than the number of states in the states.js file.
-- !schedule: If a schedule image URL is specified, it will send out that image in a message
+- !schedule: Sends a message telling what number week next week is in the cycle. If a schedule image URL is specified, it will also send out that image in the message.
