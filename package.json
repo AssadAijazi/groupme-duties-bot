@@ -1,0 +1,21 @@
+{
+  "name": "groupme-duties-bot",
+  "version": "1.0.0",
+  "description": "A bot that automatically reminds everyone what there duties are for the week",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "morgan": "^1.9.0",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0"
+  }
+}
