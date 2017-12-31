@@ -3,7 +3,7 @@ A GroupMe bot for setting up reminders for cleaning duties/chores. Perfect for f
 
 ## Prerequisites
 - Must have a GroupMe account
-- Must have some some sort of cloud hosting environment (Amazon EC2, heroku, Google Computing Engine, etc...) to run the application, or port fowrwarding or ngrok if you want to run it locally.
+- Must have some some sort of cloud hosting environment (Amazon EC2, heroku, Google Computing Engine, etc...) to run the application, or port forwarding or ngrok if you want to run it locally. Essentially, you need a public URL so that the bot can access the server application from anywhere.
 - Must have node.js installed on said environment
 
 ## Using This Bot
