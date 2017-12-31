@@ -1,5 +1,5 @@
 # groupme-duties-bot
-A bot for setting up reminders for cleaning dutiee/chores. Perfect for families and roommates!
+A bot for setting up reminders for cleaning duties/chores. Perfect for families and roommates!
 
 ## Prerequisites
 - Must have a GroupMe account
