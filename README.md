@@ -2,16 +2,16 @@
 A GroupMe bot for setting up reminders for cleaning duties/chores. Perfect for families and roommates!
 
 ## Prerequisites
-- Must have a GroupMe account
+- Must have a GroupMe account.
 - Must have some some sort of cloud hosting environment (Amazon EC2, heroku, Google Computing Engine, etc...) to run the application, or port forwarding or ngrok if you want to run it locally. Essentially, you need a public URL so that the bot can access the server application from anywhere.
-- Must have node.js installed on said environment
+- Must have node.js installed on said environment.
 
 ## Using This Bot
-1) Use `git clone https://github.com/AssadAijazi/groupme-duties-bot.git` to create a copy of the repository
+1) Use `git clone https://github.com/AssadAijazi/groupme-duties-bot.git` to create a copy of the repository.
 2) Go to https://dev.groupme.com/bots and sign in with your GroupMe account.
 3) Click 'Create Bot' and put in the desired settings. The callback URL should be the URL where the application will be deployed.
 4) Copy the Bot Id and placing it into the correct space in the `config.js` file. Also be sure to specify the port number on which the application will be deployed.
-5) If desired, specify an image URL of the cleaning schedule. Note this will only work for URLs obtained via the GroupMe imaging service. See https://dev.groupme.com/docs/image_service for details
+5) If desired, specify an image URL of the cleaning schedule. Note this will only work for URLs obtained via the GroupMe imaging service. See https://dev.groupme.com/docs/image_service for details.
 6) Complete the `states.js` file. Each state represents the responsibilities for a particular week in the cycle. See comments for more detailed instructions. Be sure to also complete the `initial_state.json` file.
 7) On your deployment environment, copy over the project with all of the changes you made and run `npm install && npm start` to start the server on the port specified in the `config.js` file.
 NOTE: If using ngrok, now would be the time to run `ngrok http [YOUR PORT NUM]` and use the public URL as the callback URL for the bot on GroupMe.
