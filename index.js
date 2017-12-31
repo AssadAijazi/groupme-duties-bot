@@ -59,12 +59,12 @@ function toggleDutyReminders() {
 }
 
 function updateWeekNum(num) {
-        if(num <= 4 && num >= 1) {
+        if(num <= states.length && num >= 1) {
             duties.week_num = num - 1;
             updateDuties();
             sendMessage({message: "Week number updated"});
         } else {
-            sendMessage({message: "Invalid usage: !update week num [1-4]"});
+            sendMessage({message: "Invalid usage: !update week num [1-" + states.length + "]"});
         }
 }
 
