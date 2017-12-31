@@ -6,7 +6,7 @@ A bot for setting up reminders for cleaning dutiee/chores. Perfect for families 
 - Must have some some sort of cloud hosting environment (Amazon EC2, heroku, Google Computing Engine, etc...) to run the application, or port fowrwarding or ngrok if you want to run it locally.
 - Must have node.js installed on said environment
 
-## Using This Bot:
+## Using This Bot
 1) Use `git clone https://github.com/AssadAijazi/groupme-duties-bot.git` to create a copy of the repository
 2) Go to https://dev.groupme.com/bots and sign in with your GroupMe account.
 3) Click 'Create Bot' and put in the desired settings. The callback URL should be the URL where the application will be deployed.
